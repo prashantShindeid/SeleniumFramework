@@ -10,13 +10,13 @@ import com.selenium_framework.SeleniumFramework.base.BasePage;
 
 public class LoginPage extends BasePage {
 
-	   @FindBy(id="userEmail")
+	   private @FindBy(id="userEmail")
 	   WebElement emailField;
 	
-	   @FindBy(id="userPassword")
+	   private @FindBy(id="userPassword")
 	   WebElement passwordField;
 	   
-	   @FindBy(id ="login")
+	   private @FindBy(id ="login")
 	   WebElement loginButton;
 	    	         
      

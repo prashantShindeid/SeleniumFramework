@@ -11,7 +11,7 @@ import com.selenium_framework.SeleniumFramework.base.BasePage;
 public class Dashboard extends BasePage{
 
 	
-	@FindBy(css = "button[routerlink='/dashboard/cart']")
+	private @FindBy(css = "button[routerlink='/dashboard/cart']")
 	WebElement cart;
 	
 	
