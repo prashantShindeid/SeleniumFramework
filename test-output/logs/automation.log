@@ -1,0 +1,207 @@
+2026-09-18 07:02:46 [main] INFO  com.selenium_framework.SeleniumFramework.base.BaseTest - Browser launched and navigated to base URL
+2026-09-18 07:02:46 [main] INFO  com.selenium_framework.SeleniumFramework.base.BaseTest - Browser closed
+2026-09-18 07:04:17 [main] INFO  com.selenium_framework.SeleniumFramework.base.BaseTest - Browser launched and navigated to base URL
+2026-09-18 07:04:20 [main] INFO  com.selenium_framework.SeleniumFramework.base.BaseTest - Browser closed
+2026-09-18 08:12:12 [main] INFO  com.selenium_framework.SeleniumFramework.base.BaseTest - Browser launched and navigated to base URL
+2026-09-18 08:12:15 [main] INFO  com.selenium_framework.SeleniumFramework.base.BaseTest - Browser closed
+2026-09-19 11:48:03 [TestNG-test-Tests-1] INFO  com.selenium_framework.SeleniumFramework.base.BaseTest - Browser launched and navigated to base URL
+2026-09-19 11:48:03 [TestNG-test-Tests-1] INFO  com.selenium_framework.SeleniumFramework.listener.TestListener - ===== STARTING TEST: testlogin =====
+2026-09-19 11:48:04 [TestNG-test-Tests-2] INFO  com.selenium_framework.SeleniumFramework.base.BaseTest - Browser launched and navigated to base URL
+2026-09-19 11:48:04 [TestNG-test-Tests-2] INFO  com.selenium_framework.SeleniumFramework.listener.TestListener - ===== STARTING TEST: verifyAddToCart =====
+2026-09-19 11:48:08 [TestNG-test-Tests-1] ERROR com.selenium_framework.SeleniumFramework.listener.TestListener - ===== TEST FAILED: testlogin =====
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#userEmail"}
+  (Session info: chrome=152.0.7977.84)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.48.0', revision: '27f5213 27f5213055e28398a5105b7892b7a3bb2012a6ef'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [57edd5bef9be39952b1d4846108b094e, findElement {using=id, value=userEmail}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 152.0.7977.84, chrome: {chromedriverVersion: 152.0.7977.82 (d04cdb24d67b..., userDataDir: C:\Users\PRASHA~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53427}, goog:processID: 11228, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53427/devtoo..., se:cdpVersion: 152.0.7977.84, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 57edd5bef9be39952b1d4846108b094e
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169) ~[selenium-remote-driver-4.48.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143) ~[selenium-remote-driver-4.48.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50) ~[selenium-remote-driver-4.48.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:196) ~[selenium-remote-driver-4.48.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217) ~[selenium-remote-driver-4.48.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175) ~[selenium-remote-driver-4.48.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:653) ~[selenium-remote-driver-4.48.0.jar:?]
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:173) ~[selenium-remote-driver-4.48.0.jar:?]
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:67) ~[selenium-remote-driver-4.48.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:417) ~[selenium-remote-driver-4.48.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:411) ~[selenium-remote-driver-4.48.0.jar:?]
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69) ~[selenium-support-4.48.0.jar:?]
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38) ~[selenium-support-4.48.0.jar:?]
+	at jdk.proxy2/jdk.proxy2.$Proxy30.sendKeys(Unknown Source) ~[?:?]
+	at com.selenium_framework.SeleniumFramework.pages.LoginPage.login(LoginPage.java:29) ~[classes/:?]
+	at com.selenium_framework.SeleniumFramework.tests.Login.testlogin(Login.java:19) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.11.0.jar:7.11.0]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22) ~[testng-7.11.0.jar:7.11.0]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+2026-09-19 11:48:09 [TestNG-test-Tests-1] INFO  com.selenium_framework.SeleniumFramework.utils.ScreenshotUtils - Screenshot captured: test-output/screenshots/testlogin_20260919_114808.png
+2026-09-19 11:48:09 [TestNG-test-Tests-1] INFO  com.selenium_framework.SeleniumFramework.base.BaseTest - Browser closed
+2026-09-19 11:48:13 [TestNG-test-Tests-2] ERROR com.selenium_framework.SeleniumFramework.listener.TestListener - ===== TEST FAILED: verifyAddToCart =====
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#userEmail"}
+  (Session info: chrome=152.0.7977.84)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.48.0', revision: '27f5213 27f5213055e28398a5105b7892b7a3bb2012a6ef'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [57edd5bef9be39952b1d4846108b094e, findElement {using=id, value=userEmail}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 152.0.7977.84, chrome: {chromedriverVersion: 152.0.7977.82 (d04cdb24d67b..., userDataDir: C:\Users\PRASHA~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53427}, goog:processID: 11228, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53427/devtoo..., se:cdpVersion: 152.0.7977.84, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 57edd5bef9be39952b1d4846108b094e
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169) ~[selenium-remote-driver-4.48.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143) ~[selenium-remote-driver-4.48.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50) ~[selenium-remote-driver-4.48.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:196) ~[selenium-remote-driver-4.48.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217) ~[selenium-remote-driver-4.48.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175) ~[selenium-remote-driver-4.48.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:653) ~[selenium-remote-driver-4.48.0.jar:?]
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:173) ~[selenium-remote-driver-4.48.0.jar:?]
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:67) ~[selenium-remote-driver-4.48.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:417) ~[selenium-remote-driver-4.48.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:411) ~[selenium-remote-driver-4.48.0.jar:?]
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69) ~[selenium-support-4.48.0.jar:?]
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38) ~[selenium-support-4.48.0.jar:?]
+	at jdk.proxy2/jdk.proxy2.$Proxy30.sendKeys(Unknown Source) ~[?:?]
+	at com.selenium_framework.SeleniumFramework.pages.LoginPage.login(LoginPage.java:29) ~[classes/:?]
+	at com.selenium_framework.SeleniumFramework.tests.Cart.verifyAddToCart(Cart.java:26) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.11.0.jar:7.11.0]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22) ~[testng-7.11.0.jar:7.11.0]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+2026-09-19 11:48:14 [TestNG-test-Tests-2] INFO  com.selenium_framework.SeleniumFramework.utils.ScreenshotUtils - Screenshot captured: test-output/screenshots/verifyAddToCart_20260919_114813.png
+2026-09-19 11:48:14 [TestNG-test-Tests-2] INFO  com.selenium_framework.SeleniumFramework.base.BaseTest - Browser closed
+2026-09-19 11:59:01 [TestNG-test-Tests-1] INFO  com.selenium_framework.SeleniumFramework.base.BaseTest - Browser launched and navigated to base URL
+2026-09-19 11:59:01 [TestNG-test-Tests-2] INFO  com.selenium_framework.SeleniumFramework.base.BaseTest - Browser launched and navigated to base URL
+2026-09-19 11:59:01 [TestNG-test-Tests-2] INFO  com.selenium_framework.SeleniumFramework.listener.TestListener - ===== STARTING TEST: verifyAddToCart =====
+2026-09-19 11:59:01 [TestNG-test-Tests-1] INFO  com.selenium_framework.SeleniumFramework.listener.TestListener - ===== STARTING TEST: testlogin =====
+2026-09-19 11:59:02 [TestNG-test-Tests-1] INFO  com.selenium_framework.SeleniumFramework.listener.TestListener - ===== TEST PASSED: testlogin =====
+2026-09-19 11:59:03 [TestNG-test-Tests-1] INFO  com.selenium_framework.SeleniumFramework.base.BaseTest - Browser closed
+2026-09-19 11:59:04 [TestNG-test-Tests-2] ERROR com.selenium_framework.SeleniumFramework.listener.TestListener - ===== TEST FAILED: verifyAddToCart =====
+org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button _ngcontent-tmu-c33="" routerlink="/dashboard/cart" class="btn btn-custom" style="margin-top: -10px;" tabindex="0">...</button> is not clickable at point (1282, 133). Other element would receive the click: <div _ngcontent-tmu-c31="" class="ngx-spinner-overlay ng-tns-c31-1 ng-trigger ng-trigger-fadeIn ng-star-inserted ng-animating" style="background-color: rgba(51, 51, 51, 0.8); z-index: 99999; position: fixed;">...</div>
+  (Session info: chrome=152.0.7977.84)
+Build info: version: '4.48.0', revision: '27f5213 27f5213055e28398a5105b7892b7a3bb2012a6ef'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c0895d3ef3b4d6143b8244fa85169017, clickElement {id=f.5C754899CA44985CE2DD2507AA9AC1BA.d.E2742A3D6AAAB172DFC4291F6AB9DB80.e.57}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 152.0.7977.84, chrome: {chromedriverVersion: 152.0.7977.82 (d04cdb24d67b..., userDataDir: C:\Users\PRASHA~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61390}, goog:processID: 34464, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61390/devtoo..., se:cdpVersion: 152.0.7977.84, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (c0895d3ef3b4d6143b8244fa85169017)] -> css selector: button[routerlink='/dashboard/cart']]
+Session ID: c0895d3ef3b4d6143b8244fa85169017
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169) ~[selenium-remote-driver-4.48.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143) ~[selenium-remote-driver-4.48.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50) ~[selenium-remote-driver-4.48.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:196) ~[selenium-remote-driver-4.48.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217) ~[selenium-remote-driver-4.48.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175) ~[selenium-remote-driver-4.48.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:653) ~[selenium-remote-driver-4.48.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:225) ~[selenium-remote-driver-4.48.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:79) ~[selenium-remote-driver-4.48.0.jar:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51) ~[selenium-support-4.48.0.jar:?]
+	at jdk.proxy2/jdk.proxy2.$Proxy32.click(Unknown Source) ~[?:?]
+	at com.selenium_framework.SeleniumFramework.pages.Dashboard.clickCartIcon(Dashboard.java:24) ~[classes/:?]
+	at com.selenium_framework.SeleniumFramework.tests.Cart.verifyAddToCart(Cart.java:28) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.11.0.jar:7.11.0]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22) ~[testng-7.11.0.jar:7.11.0]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+2026-09-19 11:59:04 [TestNG-test-Tests-2] INFO  com.selenium_framework.SeleniumFramework.utils.ScreenshotUtils - Screenshot captured: test-output/screenshots/verifyAddToCart_20260919_115904.png
+2026-09-19 11:59:04 [TestNG-test-Tests-2] INFO  com.selenium_framework.SeleniumFramework.base.BaseTest - Browser closed
+2026-09-19 12:04:55 [TestNG-test-Tests-1] INFO  com.selenium_framework.SeleniumFramework.base.BaseTest - Browser launched and navigated to base URL
+2026-09-19 12:04:56 [TestNG-test-Tests-1] INFO  com.selenium_framework.SeleniumFramework.listener.TestListener - ===== STARTING TEST: testlogin =====
+2026-09-19 12:04:56 [TestNG-test-Tests-2] INFO  com.selenium_framework.SeleniumFramework.base.BaseTest - Browser launched and navigated to base URL
+2026-09-19 12:04:56 [TestNG-test-Tests-2] INFO  com.selenium_framework.SeleniumFramework.listener.TestListener - ===== STARTING TEST: verifyAddToCart =====
+2026-09-19 12:05:11 [TestNG-test-Tests-1] INFO  com.selenium_framework.SeleniumFramework.listener.TestListener - ===== TEST PASSED: testlogin =====
+2026-09-19 12:05:12 [TestNG-test-Tests-1] INFO  com.selenium_framework.SeleniumFramework.base.BaseTest - Browser closed
+2026-09-19 12:05:14 [TestNG-test-Tests-2] ERROR com.selenium_framework.SeleniumFramework.listener.TestListener - ===== TEST FAILED: verifyAddToCart =====
+org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button _ngcontent-jkq-c33="" routerlink="/dashboard/cart" class="btn btn-custom" style="margin-top: -10px;" tabindex="0">...</button> is not clickable at point (1279, 133). Other element would receive the click: <div _ngcontent-jkq-c31="" class="ngx-spinner-overlay ng-tns-c31-1 ng-trigger ng-trigger-fadeIn ng-star-inserted" style="background-color: rgba(51, 51, 51, 0.8); z-index: 99999; position: fixed; opacity: 1;">...</div>
+  (Session info: chrome=152.0.7977.84)
+Build info: version: '4.48.0', revision: '27f5213 27f5213055e28398a5105b7892b7a3bb2012a6ef'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fb453c50621d73a6a58cf9ea30db84be, clickElement {id=f.3BC96487320F5DAD2C9F10EB1C0AE806.d.1A6AA10ED2A54AACD278C903BE7711B8.e.120}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 152.0.7977.84, chrome: {chromedriverVersion: 152.0.7977.82 (d04cdb24d67b..., userDataDir: C:\Users\PRASHA~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63077}, goog:processID: 3592, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63077/devtoo..., se:cdpVersion: 152.0.7977.84, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (fb453c50621d73a6a58cf9ea30db84be)] -> css selector: button[routerlink='/dashboard/cart']]
+Session ID: fb453c50621d73a6a58cf9ea30db84be
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169) ~[selenium-remote-driver-4.48.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143) ~[selenium-remote-driver-4.48.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50) ~[selenium-remote-driver-4.48.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:196) ~[selenium-remote-driver-4.48.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217) ~[selenium-remote-driver-4.48.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175) ~[selenium-remote-driver-4.48.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:653) ~[selenium-remote-driver-4.48.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:225) ~[selenium-remote-driver-4.48.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:79) ~[selenium-remote-driver-4.48.0.jar:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51) ~[selenium-support-4.48.0.jar:?]
+	at jdk.proxy2/jdk.proxy2.$Proxy32.click(Unknown Source) ~[?:?]
+	at com.selenium_framework.SeleniumFramework.pages.Dashboard.clickCartIcon(Dashboard.java:24) ~[classes/:?]
+	at com.selenium_framework.SeleniumFramework.tests.Cart.verifyAddToCart(Cart.java:28) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.11.0.jar:7.11.0]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22) ~[testng-7.11.0.jar:7.11.0]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+2026-09-19 12:05:14 [TestNG-test-Tests-2] INFO  com.selenium_framework.SeleniumFramework.utils.ScreenshotUtils - Screenshot captured: test-output/screenshots/verifyAddToCart_20260919_120514.png
+2026-09-19 12:05:14 [TestNG-test-Tests-2] INFO  com.selenium_framework.SeleniumFramework.base.BaseTest - Browser closed
+2026-09-19 12:08:43 [main] INFO  com.selenium_framework.SeleniumFramework.base.BaseTest - Browser launched and navigated to base URL
+2026-09-19 12:09:01 [main] INFO  com.selenium_framework.SeleniumFramework.base.BaseTest - Browser closed
+2026-09-19 12:30:32 [TestNG-test-Tests-1] INFO  com.selenium_framework.SeleniumFramework.base.BaseTest - Browser launched and navigated to base URL
+2026-09-19 12:30:32 [TestNG-test-Tests-2] INFO  com.selenium_framework.SeleniumFramework.base.BaseTest - Browser launched and navigated to base URL
+2026-09-19 12:30:33 [TestNG-test-Tests-2] INFO  com.selenium_framework.SeleniumFramework.listener.TestListener - ===== STARTING TEST: verifyAddToCart =====
+2026-09-19 12:30:33 [TestNG-test-Tests-1] INFO  com.selenium_framework.SeleniumFramework.listener.TestListener - ===== STARTING TEST: testlogin =====
+2026-09-19 12:30:38 [TestNG-test-Tests-1] INFO  com.selenium_framework.SeleniumFramework.listener.TestListener - ===== TEST PASSED: testlogin =====
+2026-09-19 12:30:39 [TestNG-test-Tests-1] INFO  com.selenium_framework.SeleniumFramework.base.BaseTest - Browser closed
+2026-09-19 12:30:40 [TestNG-test-Tests-2] WARN  com.selenium_framework.SeleniumFramework.base.BasePage - Normal click intercepted for [[ChromeDriver: chrome on windows (cc9e2b67416e17c684efa597b92b919b)] -> css selector: button[routerlink='/dashboard/cart']], falling back to JS click
+2026-09-19 12:30:40 [TestNG-test-Tests-2] INFO  com.selenium_framework.SeleniumFramework.listener.TestListener - ===== TEST PASSED: verifyAddToCart =====
+2026-09-19 12:30:40 [TestNG-test-Tests-2] INFO  com.selenium_framework.SeleniumFramework.base.BaseTest - Browser closed
