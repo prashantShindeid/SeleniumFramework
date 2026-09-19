@@ -205,3 +205,27 @@ Session ID: fb453c50621d73a6a58cf9ea30db84be
 2026-09-19 12:30:40 [TestNG-test-Tests-2] WARN  com.selenium_framework.SeleniumFramework.base.BasePage - Normal click intercepted for [[ChromeDriver: chrome on windows (cc9e2b67416e17c684efa597b92b919b)] -> css selector: button[routerlink='/dashboard/cart']], falling back to JS click
 2026-09-19 12:30:40 [TestNG-test-Tests-2] INFO  com.selenium_framework.SeleniumFramework.listener.TestListener - ===== TEST PASSED: verifyAddToCart =====
 2026-09-19 12:30:40 [TestNG-test-Tests-2] INFO  com.selenium_framework.SeleniumFramework.base.BaseTest - Browser closed
+2026-09-19 13:35:39 [TestNG-test-Tests-2] INFO  com.selenium_framework.SeleniumFramework.base.BaseTest - Browser launched and navigated to base URL
+2026-09-19 13:35:40 [TestNG-test-Tests-1] INFO  com.selenium_framework.SeleniumFramework.base.BaseTest - Browser launched and navigated to base URL
+2026-09-19 13:35:40 [TestNG-test-Tests-1] INFO  com.selenium_framework.SeleniumFramework.listener.TestListener - ===== STARTING TEST: testlogin =====
+2026-09-19 13:35:40 [TestNG-test-Tests-2] INFO  com.selenium_framework.SeleniumFramework.listener.TestListener - ===== STARTING TEST: verifyAddToCart =====
+2026-09-19 13:35:46 [TestNG-test-Tests-1] INFO  com.selenium_framework.SeleniumFramework.listener.TestListener - ===== TEST PASSED: testlogin =====
+2026-09-19 13:35:46 [TestNG-test-Tests-1] INFO  com.selenium_framework.SeleniumFramework.base.BaseTest - Browser closed
+2026-09-19 13:35:53 [TestNG-test-Tests-2] INFO  com.selenium_framework.SeleniumFramework.listener.TestListener - ===== TEST PASSED: verifyAddToCart =====
+2026-09-19 13:35:53 [TestNG-test-Tests-2] INFO  com.selenium_framework.SeleniumFramework.base.BaseTest - Browser closed
+2026-09-19 13:42:12 [TestNG-test-Tests-1] INFO  com.selenium_framework.SeleniumFramework.base.BaseTest - Browser launched and navigated to base URL
+2026-09-19 13:42:12 [TestNG-test-Tests-2] INFO  com.selenium_framework.SeleniumFramework.base.BaseTest - Browser launched and navigated to base URL
+2026-09-19 13:42:13 [TestNG-test-Tests-2] INFO  com.selenium_framework.SeleniumFramework.listener.TestListener - ===== STARTING TEST: verifyAddToCart =====
+2026-09-19 13:42:13 [TestNG-test-Tests-1] INFO  com.selenium_framework.SeleniumFramework.listener.TestListener - ===== STARTING TEST: testlogin =====
+2026-09-19 13:42:19 [TestNG-test-Tests-1] INFO  com.selenium_framework.SeleniumFramework.listener.TestListener - ===== TEST PASSED: testlogin =====
+2026-09-19 13:42:19 [TestNG-test-Tests-1] INFO  com.selenium_framework.SeleniumFramework.base.BaseTest - Browser closed
+2026-09-19 13:42:26 [TestNG-test-Tests-2] INFO  com.selenium_framework.SeleniumFramework.listener.TestListener - ===== TEST PASSED: verifyAddToCart =====
+2026-09-19 13:42:26 [TestNG-test-Tests-2] INFO  com.selenium_framework.SeleniumFramework.base.BaseTest - Browser closed
+2026-09-19 13:53:29 [TestNG-test-Tests-2] INFO  com.selenium_framework.SeleniumFramework.base.BaseTest - Browser launched and navigated to base URL
+2026-09-19 13:53:30 [TestNG-test-Tests-1] INFO  com.selenium_framework.SeleniumFramework.base.BaseTest - Browser launched and navigated to base URL
+2026-09-19 13:53:30 [TestNG-test-Tests-2] INFO  com.selenium_framework.SeleniumFramework.listener.TestListener - ===== STARTING TEST: verifyAddToCart =====
+2026-09-19 13:53:30 [TestNG-test-Tests-1] INFO  com.selenium_framework.SeleniumFramework.listener.TestListener - ===== STARTING TEST: testlogin =====
+2026-09-19 13:53:36 [TestNG-test-Tests-1] INFO  com.selenium_framework.SeleniumFramework.listener.TestListener - ===== TEST PASSED: testlogin =====
+2026-09-19 13:53:36 [TestNG-test-Tests-1] INFO  com.selenium_framework.SeleniumFramework.base.BaseTest - Browser closed
+2026-09-19 13:53:43 [TestNG-test-Tests-2] INFO  com.selenium_framework.SeleniumFramework.listener.TestListener - ===== TEST PASSED: verifyAddToCart =====
+2026-09-19 13:53:45 [TestNG-test-Tests-2] INFO  com.selenium_framework.SeleniumFramework.base.BaseTest - Browser closed
